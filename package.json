@@ -6,6 +6,7 @@
     "type": "git",
     "url": "git+https://github.com/mozilla/webextension-polyfill.git"
   },
+  "main": "./dist/browser-polyfill.js",
   "author": "Mozilla",
   "license": "MPL-2.0",
   "bugs": {
