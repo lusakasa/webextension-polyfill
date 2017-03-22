@@ -336,5 +336,5 @@ if (typeof browser === "undefined") {
     return wrapObject(chrome, staticWrappers, apiMetadata);
   };
 
-  window.browser = wrapAPIs();
+  this.browser = wrapAPIs();
 }
