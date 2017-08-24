@@ -1,4 +1,4 @@
-/* webextension-polyfill - v0.1.0 - Wed Mar 22 2017 02:10:52 */
+/* webextension-polyfill - v0.1.0 - Wed Aug 23 2017 22:58:20 */
 /* -*- Mode: indent-tabs-mode: nil; js-indent-level: 2 -*- */
 /* vim: set sts=2 sw=2 et tw=80: */
 /* This Source Code Form is subject to the terms of the Mozilla Public
@@ -336,6 +336,16 @@ if (typeof browser === "undefined") {
           "maxArgs": 2
         },
         "setUninstallURL": {
+          "minArgs": 1,
+          "maxArgs": 1
+        }
+      },
+      "sessions": {
+        "getRecentlyClosed": {
+          "minArgs": 0,
+          "maxArgs": 1
+        },
+        "restore": {
           "minArgs": 1,
           "maxArgs": 1
         }
