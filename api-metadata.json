@@ -325,6 +325,16 @@
       "maxArgs": 1
     }
   },
+  "session": {
+    "getRecentlyClosed": {
+      "minArgs": 0,
+      "maxArgs": 1
+    },
+    "restore": {
+      "minArgs": 1,
+      "maxArgs": 1
+    }
+  },
   "storage": {
     "local": {
       "clear": {
